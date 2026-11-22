@@ -119,12 +119,6 @@ Live URL: https://focus-board-orpin.vercel.app
 
 The project uses `npm run build` as the build command and `dist` as the output directory.
 
-## Screenshots
-
-Add captures to the `screenshots/` folder:
-
-- `screenshots/desktop-dashboard.png` at about 1440px wide
-- `screenshots/mobile-dashboard.png` at about 390px wide
 
 ## Known limitations
 
