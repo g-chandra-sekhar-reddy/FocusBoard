@@ -1,25 +1,26 @@
 # AI Usage
 
-## AI tools used
+## AI Tools Used
 
-This project used Cursor and GitHub Copilot as AI coding tools.
+This project was developed with assistance from Cursor and GitHub Copilot.
 
-## How AI assisted
+## How AI Assisted
 
-AI tools assisted with:
+AI tools assisted during development with:
 
-- React component development, including breaking the interface into reusable components and connecting component props and state.
-- CSS styling and responsive layout work for the FocusBoard interface.
-- Debugging implementation issues and validating existing behavior.
-- Code review and identifying missing or inconsistent requirements.
+- React component development, including creating reusable components and managing component props and state.
+- CSS styling and responsive layout implementation.
+- Debugging implementation issues and resolving errors.
+- Reviewing code and identifying missing or inconsistent assessment requirements.
+- Checking application functionality and suggesting improvements.
 - Writing and updating project documentation.
 
-## Project review and responsibility
+## Project Review and Responsibility
 
-I reviewed the generated and existing code, tested the application, and take responsibility for understanding the submitted implementation.
+I reviewed the generated and existing code, made necessary adjustments, and tested the application's functionality. I take responsibility for understanding, reviewing, and submitting the final implementation.
 
-## Project architecture
+## Project Architecture
 
-FocusBoard is a frontend-only React and Vite application. It uses browser localStorage to persist task data between visits.
+FocusBoard is a frontend-only application built using React and Vite. It uses browser `localStorage` to persist task data between visits.
 
-The project does not use a backend, authentication, or an external database. Task data remains in the user's browser.
+The project does not use a backend, authentication, or an external database. Task data remains stored locally in the user's browser.

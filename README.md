@@ -43,6 +43,7 @@ src/
     focusNotes.js
     sampleTasks.js
   hooks/
+    useFocusTrap.js
     useLocalStorage.js
   App.jsx
   main.jsx
@@ -108,13 +109,15 @@ The AI tools and assistance used during development are documented in [AI_USAGE.
 
 ## GitHub repository
 
-`https://github.com/<your-username>/FocusBoard`
+`https://github.com/g-chandra-sekhar-reddy/FocusBoard`
 
 ## Live deployment
 
-`https://<your-project-name>.vercel.app`
+The application is deployed using Vercel.
 
-The project is ready to import on Vercel or Netlify. The build command is `npm run build` and the output directory is `dist`. This repository has not been deployed from this setup.
+Live URL: https://focus-board-orpin.vercel.app
+
+The project uses `npm run build` as the build command and `dist` as the output directory.
 
 ## Screenshots
 
@@ -128,5 +131,6 @@ Add captures to the `screenshots/` folder:
 - The Figma frames were not in the project folder. Colors, spacing, type, and the three Focus Notes texts are a temporary stand-in. The slide copy lives in `src/data/focusNotes.js`. The colors live as variables at the top of `src/index.css`.
 - Sidebar links scroll to sections on this page. There are no separate routes.
 - Category is collected on the form and must be chosen. Description is optional.
-- Dates and search are not saved across refreshes. The task list is.
+- Search text, selected status tab, priority filter, and active carousel slide are not persisted.
+- Task details, including due dates, are stored in localStorage and restored after refreshing the page.
 - There is no account, server, or shared board. Data stays in this browser.
